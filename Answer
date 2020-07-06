@@ -10,6 +10,7 @@ Polymorphism means "many forms", and it occurs when we have many classes that ar
 In the program, the Cat class and Dog class in an array of Animal class. This means it is casting the child classes into their parent class.
 
 • The method introduceYourself of Animal appears to be never called? Why not?
+Because Animal object did not created to call that method out.
 
 • Comment out the method introduceYourself in Dog. What happens now when you run the program?
 Meow. I am a cat. My name is Kurre.
@@ -17,9 +18,14 @@ Morr. I am a cat.
 Meow. I am a cat. My name is Bamse.
 
 • Where is the name stored for the instances of Cat and Dog? (In what / which classes did you put the instance variable that refers to the name of the animal? Both Cat and Dog, or just in Animal?)
-
+Animal class.
+ 
 • How does the code in the test program work?
+By using the concept of OOP, polymorphism, override, overloading, inheritance, getter and setter.
 
 • How does an array work?
+We create an array object and give size to the array.
 
 • In the above programs we have used a while loop to step through the array and to get information about the animals. But there is a more appropriate loop statement here. What is it?
+for loop has the better loop statement.
+for(int i = 0 ; i < allAnimals.length ; i++){ }
